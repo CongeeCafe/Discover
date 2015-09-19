@@ -9,8 +9,8 @@ import retrofit.http.Path;
 public class Api {
     interface WallpaperApi
     {
-        @GET("/{id}.json")
-        EarthImage getWallpaper(@Path("id") String wallpaperId);
+     //   @GET("/{id}.json")
+     //   EarthImage getWallpaper(@Path("id") String wallpaperId);
     }
 
 }
