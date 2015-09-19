@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A4A07B1BAD9A2B00205EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4A07A1BAD9A2B00205EDC /* main.m */; };
+		F5A4A07E1BAD9A2B00205EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4A07D1BAD9A2B00205EDC /* AppDelegate.m */; };
+		F5A4A0811BAD9A2B00205EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4A0801BAD9A2B00205EDC /* ViewController.m */; };
+		F5A4A0841BAD9A2C00205EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4A0821BAD9A2C00205EDC /* Main.storyboard */; };
+		F5A4A0861BAD9A2C00205EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A4A0851BAD9A2C00205EDC /* Assets.xcassets */; };
+		F5A4A0891BAD9A2C00205EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A4A0871BAD9A2C00205EDC /* LaunchScreen.storyboard */; };
+		F5A4A0941BAD9A2C00205EDC /* DiscoveriOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4A0931BAD9A2C00205EDC /* DiscoveriOSTests.m */; };
+		F5A4A09F1BAD9A2C00205EDC /* DiscoveriOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4A09E1BAD9A2C00205EDC /* DiscoveriOSUITests.m */; };
+		F5A4A0AD1BAD9A7000205EDC /* testing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5A4A0AC1BAD9A7000205EDC /* testing.jpeg */; settings = {ASSET_TAGS = (); }; };
+		F5A4A0AF1BAD9A7700205EDC /* waterloo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A4A0AE1BAD9A7700205EDC /* waterloo.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A4A0901BAD9A2C00205EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A4A06E1BAD9A2B00205EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A4A0751BAD9A2B00205EDC;
+			remoteInfo = DiscoveriOS;
+		};
+		F5A4A09B1BAD9A2C00205EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A4A06E1BAD9A2B00205EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A4A0751BAD9A2B00205EDC;
+			remoteInfo = DiscoveriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A4A0761BAD9A2B00205EDC /* DiscoveriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoveriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4A07A1BAD9A2B00205EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5A4A07C1BAD9A2B00205EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5A4A07D1BAD9A2B00205EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5A4A07F1BAD9A2B00205EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5A4A0801BAD9A2B00205EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5A4A0831BAD9A2C00205EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A4A0851BAD9A2C00205EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A4A0881BAD9A2C00205EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A4A08A1BAD9A2C00205EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A4A08F1BAD9A2C00205EDC /* DiscoveriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4A0931BAD9A2C00205EDC /* DiscoveriOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveriOSTests.m; sourceTree = "<group>"; };
+		F5A4A0951BAD9A2C00205EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A4A09A1BAD9A2C00205EDC /* DiscoveriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveriOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4A09E1BAD9A2C00205EDC /* DiscoveriOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveriOSUITests.m; sourceTree = "<group>"; };
+		F5A4A0A01BAD9A2C00205EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A4A0AC1BAD9A7000205EDC /* testing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testing.jpeg; sourceTree = "<group>"; };
+		F5A4A0AE1BAD9A7700205EDC /* waterloo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterloo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A4A0731BAD9A2B00205EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4A08C1BAD9A2C00205EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4A0971BAD9A2C00205EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A4A06D1BAD9A2B00205EDC = {
+			isa = PBXGroup;
+			children = (
+				F5A4A0781BAD9A2B00205EDC /* DiscoveriOS */,
+				F5A4A0921BAD9A2C00205EDC /* DiscoveriOSTests */,
+				F5A4A09D1BAD9A2C00205EDC /* DiscoveriOSUITests */,
+				F5A4A0771BAD9A2B00205EDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A4A0771BAD9A2B00205EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4A0761BAD9A2B00205EDC /* DiscoveriOS.app */,
+				F5A4A08F1BAD9A2C00205EDC /* DiscoveriOSTests.xctest */,
+				F5A4A09A1BAD9A2C00205EDC /* DiscoveriOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A4A0781BAD9A2B00205EDC /* DiscoveriOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4A0AC1BAD9A7000205EDC /* testing.jpeg */,
+				F5A4A0AE1BAD9A7700205EDC /* waterloo.jpg */,
+				F5A4A07C1BAD9A2B00205EDC /* AppDelegate.h */,
+				F5A4A07D1BAD9A2B00205EDC /* AppDelegate.m */,
+				F5A4A07F1BAD9A2B00205EDC /* ViewController.h */,
+				F5A4A0801BAD9A2B00205EDC /* ViewController.m */,
+				F5A4A0821BAD9A2C00205EDC /* Main.storyboard */,
+				F5A4A0851BAD9A2C00205EDC /* Assets.xcassets */,
+				F5A4A0871BAD9A2C00205EDC /* LaunchScreen.storyboard */,
+				F5A4A08A1BAD9A2C00205EDC /* Info.plist */,
+				F5A4A0791BAD9A2B00205EDC /* Supporting Files */,
+			);
+			path = DiscoveriOS;
+			sourceTree = "<group>";
+		};
+		F5A4A0791BAD9A2B00205EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4A07A1BAD9A2B00205EDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A4A0921BAD9A2C00205EDC /* DiscoveriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4A0931BAD9A2C00205EDC /* DiscoveriOSTests.m */,
+				F5A4A0951BAD9A2C00205EDC /* Info.plist */,
+			);
+			path = DiscoveriOSTests;
+			sourceTree = "<group>";
+		};
+		F5A4A09D1BAD9A2C00205EDC /* DiscoveriOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4A09E1BAD9A2C00205EDC /* DiscoveriOSUITests.m */,
+				F5A4A0A01BAD9A2C00205EDC /* Info.plist */,
+			);
+			path = DiscoveriOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A4A0751BAD9A2B00205EDC /* DiscoveriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A4A0A31BAD9A2C00205EDC /* Build configuration list for PBXNativeTarget "DiscoveriOS" */;
+			buildPhases = (
+				F5A4A0721BAD9A2B00205EDC /* Sources */,
+				F5A4A0731BAD9A2B00205EDC /* Frameworks */,
+				F5A4A0741BAD9A2B00205EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoveriOS;
+			productName = DiscoveriOS;
+			productReference = F5A4A0761BAD9A2B00205EDC /* DiscoveriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A4A08E1BAD9A2C00205EDC /* DiscoveriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A4A0A61BAD9A2C00205EDC /* Build configuration list for PBXNativeTarget "DiscoveriOSTests" */;
+			buildPhases = (
+				F5A4A08B1BAD9A2C00205EDC /* Sources */,
+				F5A4A08C1BAD9A2C00205EDC /* Frameworks */,
+				F5A4A08D1BAD9A2C00205EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A4A0911BAD9A2C00205EDC /* PBXTargetDependency */,
+			);
+			name = DiscoveriOSTests;
+			productName = DiscoveriOSTests;
+			productReference = F5A4A08F1BAD9A2C00205EDC /* DiscoveriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5A4A0991BAD9A2C00205EDC /* DiscoveriOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A4A0A91BAD9A2C00205EDC /* Build configuration list for PBXNativeTarget "DiscoveriOSUITests" */;
+			buildPhases = (
+				F5A4A0961BAD9A2C00205EDC /* Sources */,
+				F5A4A0971BAD9A2C00205EDC /* Frameworks */,
+				F5A4A0981BAD9A2C00205EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A4A09C1BAD9A2C00205EDC /* PBXTargetDependency */,
+			);
+			name = DiscoveriOSUITests;
+			productName = DiscoveriOSUITests;
+			productReference = F5A4A09A1BAD9A2C00205EDC /* DiscoveriOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A4A06E1BAD9A2B00205EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Joy Hsu";
+				TargetAttributes = {
+					F5A4A0751BAD9A2B00205EDC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F5A4A08E1BAD9A2C00205EDC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F5A4A0751BAD9A2B00205EDC;
+					};
+					F5A4A0991BAD9A2C00205EDC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F5A4A0751BAD9A2B00205EDC;
+					};
+				};
+			};
+			buildConfigurationList = F5A4A0711BAD9A2B00205EDC /* Build configuration list for PBXProject "DiscoveriOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A4A06D1BAD9A2B00205EDC;
+			productRefGroup = F5A4A0771BAD9A2B00205EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A4A0751BAD9A2B00205EDC /* DiscoveriOS */,
+				F5A4A08E1BAD9A2C00205EDC /* DiscoveriOSTests */,
+				F5A4A0991BAD9A2C00205EDC /* DiscoveriOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A4A0741BAD9A2B00205EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4A0891BAD9A2C00205EDC /* LaunchScreen.storyboard in Resources */,
+				F5A4A0861BAD9A2C00205EDC /* Assets.xcassets in Resources */,
+				F5A4A0AD1BAD9A7000205EDC /* testing.jpeg in Resources */,
+				F5A4A0AF1BAD9A7700205EDC /* waterloo.jpg in Resources */,
+				F5A4A0841BAD9A2C00205EDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4A08D1BAD9A2C00205EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4A0981BAD9A2C00205EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A4A0721BAD9A2B00205EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4A0811BAD9A2B00205EDC /* ViewController.m in Sources */,
+				F5A4A07E1BAD9A2B00205EDC /* AppDelegate.m in Sources */,
+				F5A4A07B1BAD9A2B00205EDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4A08B1BAD9A2C00205EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4A0941BAD9A2C00205EDC /* DiscoveriOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A4A0961BAD9A2C00205EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A4A09F1BAD9A2C00205EDC /* DiscoveriOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A4A0911BAD9A2C00205EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A4A0751BAD9A2B00205EDC /* DiscoveriOS */;
+			targetProxy = F5A4A0901BAD9A2C00205EDC /* PBXContainerItemProxy */;
+		};
+		F5A4A09C1BAD9A2C00205EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A4A0751BAD9A2B00205EDC /* DiscoveriOS */;
+			targetProxy = F5A4A09B1BAD9A2C00205EDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A4A0821BAD9A2C00205EDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A4A0831BAD9A2C00205EDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A4A0871BAD9A2C00205EDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A4A0881BAD9A2C00205EDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A4A0A11BAD9A2C00205EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5A4A0A21BAD9A2C00205EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A4A0A41BAD9A2C00205EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscoveriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.DiscoveriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5A4A0A51BAD9A2C00205EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscoveriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.DiscoveriOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5A4A0A71BAD9A2C00205EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscoveriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.DiscoveriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoveriOS.app/DiscoveriOS";
+			};
+			name = Debug;
+		};
+		F5A4A0A81BAD9A2C00205EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscoveriOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.DiscoveriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoveriOS.app/DiscoveriOS";
+			};
+			name = Release;
+		};
+		F5A4A0AA1BAD9A2C00205EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiscoveriOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.DiscoveriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscoveriOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5A4A0AB1BAD9A2C00205EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiscoveriOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joy.DiscoveriOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiscoveriOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A4A0711BAD9A2B00205EDC /* Build configuration list for PBXProject "DiscoveriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4A0A11BAD9A2C00205EDC /* Debug */,
+				F5A4A0A21BAD9A2C00205EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A4A0A31BAD9A2C00205EDC /* Build configuration list for PBXNativeTarget "DiscoveriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4A0A41BAD9A2C00205EDC /* Debug */,
+				F5A4A0A51BAD9A2C00205EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A4A0A61BAD9A2C00205EDC /* Build configuration list for PBXNativeTarget "DiscoveriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4A0A71BAD9A2C00205EDC /* Debug */,
+				F5A4A0A81BAD9A2C00205EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A4A0A91BAD9A2C00205EDC /* Build configuration list for PBXNativeTarget "DiscoveriOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A4A0AA1BAD9A2C00205EDC /* Debug */,
+				F5A4A0AB1BAD9A2C00205EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A4A06E1BAD9A2B00205EDC /* Project object */;
+}
