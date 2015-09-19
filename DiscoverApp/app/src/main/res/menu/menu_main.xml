@@ -1,12 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_search"
         android:icon="@drawable/dollar_sign"
-        android:title="@string/donate"/>
+        android:title="@string/donate"
+        app:showAsAction="always"/>
     <item android:id="@+id/action_compose"
         android:icon="@drawable/arrow"
-        android:title="@string/next" />
+        android:title="@string/next"
+        app:showAsAction="always"/>
 </menu>

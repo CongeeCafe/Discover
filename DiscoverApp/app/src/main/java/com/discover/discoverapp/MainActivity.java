@@ -61,9 +61,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu items for use in the action bar
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
+        return true;
     }
 
     public void setImage(View v) {
@@ -74,6 +72,14 @@ public class MainActivity extends ActionBarActivity {
 
 
     }
+    public void donateButton(){
+        //invokes webview
+    }
+    public void nextButton(View v){
+        //shows new image
+        setImage(v);
+    }
+
 
 
     @Override
@@ -84,9 +90,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }
