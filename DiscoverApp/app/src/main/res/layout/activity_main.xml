@@ -25,17 +25,17 @@
         android:orientation="horizontal"
         android:layout_centerInParent="true" >
         <ImageButton
+            android:id="@+id/dollar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/dollar_sign"
-            android:layout_marginRight="70dp"
-            android:onClick=""/>
+            android:layout_marginRight="70dp" />
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/arrow"
             android:layout_marginLeft="70dp"
-            android:onClick=""/>
+            android:onClick="nextButton"/>
     </LinearLayout>
 
 </RelativeLayout>
