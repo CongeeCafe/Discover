@@ -1,41 +1,64 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
-    <ImageView
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="68dp"
+    sothree:umanoShadowHeight="4dp">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:id="@+id/homeImage"
-        android:src="@drawable/testing"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="setImage"
-        android:text="@string/button"
-        android:layout_alignTop="@+id/title"
-        android:layout_centerHorizontal="true" />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal"
-        android:layout_centerInParent="true" >
-        <ImageButton
-            android:id="@+id/dollar"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:id="@+id/slidingLayout">
+        <TextView
+            android:id="@+id/title"
+            android:text="Image Location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dollar_sign"
-            android:layout_marginRight="70dp" />
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/arrow"
-            android:layout_marginLeft="70dp"
-            android:onClick="nextButton"/>
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            android:textColor="#000"/>
+        <WebView
+            android:id="@+id/web_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
     </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainLayout"
+        android:gravity="center"
+        android:background="#ccc">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poverty"
+            android:text="@string/poverty"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/education"
+            android:text="@string/education"
+            android:layout_below="@id/poverty"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/health"
+            android:text="@string/health"
+            android:layout_below="@id/education"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

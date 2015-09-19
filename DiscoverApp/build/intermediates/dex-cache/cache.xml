@@ -2,81 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jar="C:\Users\Visha\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\pre-dexed\debug\classes-37316d59a1f905e33ddaba9273884738ad3b3270.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\library-2.4.0-b28d28f60de618e66a217ee42ccc8fa000e013d0.jar" />
     </item>
     <item
-        jar="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jar="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\exploded-aar\com.sothree.slidinguppanel\library\3.1.1\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\pre-dexed\debug\classes-fc4847862fd8c5cecede980bad3395d695b07d63.jar" />
+        sha1="76351d3022d4a2803789c01046aa0aa4b0d5d134">
+        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\classes-f4260802b410d7fc166c31fbc0c4717e7b9c87f5.jar" />
     </item>
     <item
-        jar="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jar="C:\Users\Visha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\classes-2ff44a22a492b4af93037a68171958d0ed912291.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta1\53b5be42d6cf719ac1431b9aa9a4d5ab78856148\retrofit-2.0.0-beta1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta1-8d3930e330f77d1f0eabf5b9514ac300a4cf0e29.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-1e0826d5ebcb0315db4ca95779c8cc266378dff5.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\library-1.0.19-24801f9463ff3dfa80a5e240644144159d4c9b39.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-02fb955e86725d5511508dfb2ab6d74369458726.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\classes-0ba7f145412fca4d8b85642847fd937da8ecf14c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\okio-1.6.0-5afa214d2300c829d45398b4ff02e7e1bc04883c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-fad7c26842f9fb372eb2848451d87f2f5d8fd802.jar" />
-    </item>
-    <item
-        jar="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Visha\AndroidStudioProjects\DiscoverApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-a43f6cd1d72bcab4e17ad0ebec6965ea11cf0694.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Visha\Discover\DiscoverApp\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-0bf847d890131065a98273cefcdfd29848ab2cdb.jar" />
     </item>
 
 </items>

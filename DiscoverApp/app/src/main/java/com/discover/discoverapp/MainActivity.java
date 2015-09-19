@@ -19,10 +19,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.widget.Toast;
-
+import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 public class MainActivity extends ActionBarActivity {
-
 
     public Drawable newDrawable;
     public Drawable oldDrawable;
@@ -32,47 +31,22 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         addListenerOnButton();
-        ImageView v = (ImageView)findViewById(R.id.homeImage);
-        v.setOnTouchListener(new OnSwipeTouchListener(this) {
-            @Override
-            public void onSwipeLeft() {
-                // new
-                setImageSwipe(newDrawable);
-                //oldDrawable = curr;
-                //newDrawable = newd;
-            }
-
-            public void onSwipeRight() {
-                // old
-                setImageSwipe(oldDrawable);
-                //oldDrawable = oldd;
-                //newDrawable = curr;
-            }
-        });
 
     }
 
-    public void setImageSwipe(Drawable dr) {
-        //ImageView newiv = new ImageView(this);
-        //newiv.setImageResource(R.drawable.waterloo);
-        ImageView iv = (ImageView) findViewById(R.id.homeImage);
-        iv.setImageDrawable(dr);
-
-    }
     public void addListenerOnButton() {
 
-        ImageButton imageButton = (ImageButton) findViewById(R.id.dollar);
+       // ImageButton imageButton = (ImageButton) findViewById(R.id.dollar);
 
-        imageButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.mydiscover.co"));
-                startActivity(browserIntent);
-
-            }
-
-        });
+//        imageButton.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View arg0) {
+//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.mydiscover.co"));
+//                startActivity(browserIntent);
+//            }
+//
+//        });
     }
 
 
@@ -85,8 +59,8 @@ public class MainActivity extends ActionBarActivity {
     public void setImage(View v) {
         //ImageView newiv = new ImageView(this);
         //newiv.setImageResource(R.drawable.waterloo);
-        ImageView iv = (ImageView) findViewById(R.id.homeImage);
-        iv.setImageResource(R.drawable.waterloo);
+        //ImageView iv = (ImageView) findViewById(R.id.homeImage);
+        //iv.setImageResource(R.drawable.waterloo);
     }
     public void donateButton(){
         //invokes webview
