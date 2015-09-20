@@ -1,5 +1,4 @@
 package com.discover.discoverapp;
-
 import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
