@@ -1,23 +1,26 @@
 package com.discover.discoverapp;
 
+import android.content.Context;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class ReadCSV {
 
-    public static void main(String[] args) {
+    Context context;
+    String data;
 
-        ReadCSV obj = new ReadCSV();
-        obj.run();
-
+    public ReadCSV(Context context) {
+        this.context = context;
     }
 
-    public void run() {
+    public ArrayList<String> parseData(String country) {
 
-        String csvFile = "/Users/r754/Desktop/data.csv";
+        String csvFile = country + ".csv";
         BufferedReader br = null;
         String line = "";
         String csvSplitBy = ",";
@@ -26,7 +29,7 @@ public class ReadCSV {
         String[] dataline;
         try {
 
-            br = new BufferedReader(new FileReader(csvFile));
+            br = new BufferedReader(new InputStreamReader(context.getAssets().open(csvFile)));
             for(int i = 0; i < 5; i++) {
                 line = br.readLine();
             }
@@ -155,9 +158,12 @@ public class ReadCSV {
                 }
             }
 
+            /*
             for(String s:ans) {
                 System.out.println(s);
             }
+            */
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -172,6 +178,8 @@ public class ReadCSV {
                 }
             }
         }
+
+        return ans;
 
     }
 

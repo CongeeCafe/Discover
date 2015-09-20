@@ -5,9 +5,16 @@
     <string name="action_settings">Settings</string>
     <string name="donate">Donate</string>
     <string name="next">Next</string>
-    <string name="poverty">56% live under the poverty line.</string>
-    <string name="education">30% of students graduate high school.</string>
-    <string name="health">27% have no access to health care.</string>
+
+    <string name="poverty">\%% of people live under the poverty line.</string>
+    <string name="gni">Gross national income per capita is %s</string>
+    <string name="life_expectancy">People are expected to live up to %s</string>
+    <string name="assisted_birth">\%%s of newborns are delivered by health professionals.</string>
+    <string name="malnutrition">\%%s of children are malnourished.</string>
+    <string name="immunization">\%%s of individuals are vaccinated.</string>
+    <string name="primary">\%%s of students are enrolled in primary school.</string>
+    <string name="secondary">\%%s of students are enrolled in secondary school.</string>
+    <string name="gender">Gender parity index.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

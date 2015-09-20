@@ -15,8 +15,6 @@ public class Locations {
                 return new Location("Cairo", "Egypt", "30.044420", "31.235712");
             case 3:
                 return new Location("Mumbai", "India", "19.075984", "72.877656");
-            case 4:
-                return new Location("Sydney", "Australia", "-33.8675", "151.207");
             case 5:
                 return new Location("Detroit", "United States", "42.33143", "-83.0458");
             case 6:
@@ -28,7 +26,7 @@ public class Locations {
             case 9:
                 return new Location("Yaounde", "Cameroon", "3.848032", "11.502075");
             default:
-                return null;
+                return new Location("Detroit", "United States", "42.33143", "-83.0458");
         }
     }
 

@@ -37,43 +37,92 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_margin="12dp"
+            android:padding="12dp"
             android:onClick="newImage"
             android:src="@drawable/ic_keyboard_arrow_right_white_24dp" />
     </RelativeLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ccc"
-        android:gravity="center">
+        android:background="#fff"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/poverty"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:text="@string/poverty"
-            android:textSize="20dp" />
+            android:paddingTop="20dp"
+            android:paddingBottom="40dp"
+            android:text="What to know"
+            android:textSize="20dp"
+            android:fontFeatureSettings="smcp"/>
 
         <TextView
-            android:id="@+id/education"
+            android:id="@+id/fact1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/poverty"
-            android:paddingLeft="10dp"
-            android:text="@string/education"
-            android:textSize="20dp" />
+            style="@style/fact"
+            android:text="@string/poverty" />
 
         <TextView
-            android:id="@+id/health"
+            android:id="@+id/fact2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/education"
-            android:paddingLeft="10dp"
-            android:text="@string/health"
-            android:textSize="20dp" />
-    </RelativeLayout>
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <TextView
+            android:id="@+id/fact9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fact" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="22dp"
+            android:text="Find Charities"/>
+
+
+    </LinearLayout>
 
 </com.sothree.slidinguppanel.SlidingUpPanelLayout>

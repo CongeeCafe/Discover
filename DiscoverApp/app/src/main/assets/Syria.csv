@@ -1,0 +1,66 @@
+﻿Country Name,Country Code,Series Name,Series Code,1990 [YR1990],2000 [YR2000],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015]
+Syrian Arab Republic,SYR,"Population, total",SP.POP.TOTL,12451539,16354050,18728200,19425597,20097057,20566871,20720602,21070917,21427155,21789415,22157800,..
+Syrian Arab Republic,SYR,Population growth (annual %),SP.POP.GROW,2.9571939659699,2.361146213883,3.2305640090052,3.65612200436657,3.3981757062256,2.31081909296236,0.744689365921816,1.67652774404696,1.67652943924961,1.67652585622911,1.67652775538269,..
+Syrian Arab Republic,SYR,Surface area (sq. km),AG.SRF.TOTL.K2,185180,185180,185180,185180,185180,185180,185180,185180,185180,185180,185180,..
+Syrian Arab Republic,SYR,Population density (people per sq. km of land area),EN.POP.DNST,67.7524159320927,88.9871041462618,101.988781789468,105.780859289915,109.437252232629,111.99559464169,112.838871644067,114.746593693841,116.686570821761,118.659342155421,120.665468605348,..
+Syrian Arab Republic,SYR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..,..,..,35.2,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Poverty headcount ratio at $1.25 a day (PPP) (% of population),SI.POV.DDAY,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"GNI, Atlas method (current US$)",NY.GNP.ATLS.CD,11340002694.3651,15898302510.82,30953531963.2362,36176003944.358,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"GNI per capita, Atlas method (current US$)",NY.GNP.PCAP.CD,910,970,1650,1860,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"GNI, PPP (current international $)",NY.GNP.MKTP.PP.CD,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"GNI per capita, PPP (current international $)",NY.GNP.PCAP.PP.CD,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Income share held by lowest 20%,SI.DST.FRST.20,..,..,..,..,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,70.2594146341464,73.3302926829268,74.8978292682927,74.9978048780488,75.0151219512195,74.9624634146341,74.8676341463415,74.7705853658537,74.7107073170732,74.7157804878049,..,..
+Syrian Arab Republic,SYR,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,5.313,3.958,3.313,3.237,3.173,3.121,3.078,3.04,3.003,2.964,..,..
+Syrian Arab Republic,SYR,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,73.608,57.8386,46.383,44.554,44.1054,43.6568,43.2082,42.7596,42.311,41.1662,40.0214,..
+Syrian Arab Republic,SYR,Contraceptive prevalence (% of women ages 15-49),SP.DYN.CONU.ZS,..,45.2999992371,58.3,..,..,53.9,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Births attended by skilled health staff (% of total),SH.STA.BRTC.ZS,..,..,93,..,..,96.2,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Mortality rate, under-5 (per 1,000 live births)",SH.DYN.MORT,37.2,23.4,18,17.3,16.5,15.9,15.3,15,16,15.3,14.3,12.9
+Syrian Arab Republic,SYR,"Prevalence of underweight, weight for age (% of children under 5)",SH.STA.MALN.ZS,..,6,10,..,..,10.1,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Immunization, measles (% of children ages 12-23 months)",SH.IMM.MEAS,87,84,81,81,81,82,82,80,61,58,54,..
+Syrian Arab Republic,SYR,"Primary completion rate, total (% of relevant age group)",SE.PRM.CMPT.ZS,90.11477,91.5419769287109,109.502548217773,107.309799194336,105.952362060547,104.793212890625,104.026176452637,105.743530273438,106.685348510742,63.8988800048828,..,..
+Syrian Arab Republic,SYR,"School enrollment, primary (% gross)",SE.PRM.ENRR,105.54085,107.62190246582,119.21745300293,118.272239685059,118.04231262207,117.255111694336,118.147186279297,121.169006347656,122.258636474609,74.2253265380859,..,..
+Syrian Arab Republic,SYR,"School enrollment, secondary (% gross)",SE.SEC.ENRR,50.80241,43.9627494812012,71.0965576171875,72.2073211669922,72.6919479370117,72.0323791503906,72.4648284912109,73.9192886352539,74.422492980957,47.7270317077637,..,..
+Syrian Arab Republic,SYR,"School enrollment, primary and secondary (gross), gender parity index (GPI)",SE.ENR.PRSC.FM.ZS,0.8506,0.923280000686646,0.972350001335144,0.984070003032684,0.989780008792877,0.992659986019135,0.989970028400421,0.988170027732849,0.988259971141815,0.986940026283264,..,..
+Syrian Arab Republic,SYR,"Prevalence of HIV, total (% of population ages 15-49)",SH.DYN.AIDS.ZS,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,..
+Syrian Arab Republic,SYR,Forest area (sq. km),AG.LND.FRST.K2,3720,4320,4670,4730,4790,4850,4910,4970,5030,..,..,..
+Syrian Arab Republic,SYR,Terrestrial and marine protected areas (% of total territorial area),ER.PTD.TOTL.ZS,0.248237455326218,0.376429544259496,0.637788517038248,0.637788517038248,0.637788517038248,0.637788517038248,0.688137565070059,..,0.688137565070059,..,..,..
+Syrian Arab Republic,SYR,"Annual freshwater withdrawals, total (% of internal resources)",ER.H2O.FWTL.ZS,..,..,..,234.997195737521,..,..,..,..,..,234.997195737521,..,..
+Syrian Arab Republic,SYR,Improved water source (% of population with access),SH.H2O.SAFE.ZS,85.7,87.5,88.9,89.1,89.3,89.5,89.7,89.9,90.1,90.1,90.1,90.1
+Syrian Arab Republic,SYR,Improved sanitation facilities (% of population with access),SH.STA.ACSN,84.5,88.6,92.3,92.9,93.5,94,94.6,95.2,95.7,95.7,95.7,95.7
+Syrian Arab Republic,SYR,Urban population growth (annual %),SP.URB.GROW,3.38319791741128,3.07401569614032,3.91800477215995,4.34621128848631,4.09081189931907,3.00412012255813,1.4422003246744,2.37276460481363,2.3750428251498,2.37547593289408,2.37760463876314,..
+Syrian Arab Republic,SYR,Energy use (kg of oil equivalent per capita),EG.USE.PCAP.KG.OE,840.483011778705,963.969414304102,1154.91333924243,1173.85560917381,1149.45267856881,1032.35825225918,1045.33965760261,949.000795741353,701.197149131558,..,..,..
+Syrian Arab Republic,SYR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,3.00774635167589,3.12144740905158,2.86143558911161,3.42167306363866,3.36081412318232,3.01231845135801,2.97174107200167,2.7369909434886,..,..,..,..
+Syrian Arab Republic,SYR,Electric power consumption (kWh per capita),EG.USE.ELEC.KH.PC,688.509267810188,1068.60380150483,1565.07299153149,1576.21925339026,1602.97102207552,1562.36697356637,1880.10946786199,1674.06098177882,1221.72075574195,..,..,..
+Syrian Arab Republic,SYR,GDP (current US$),NY.GDP.MKTP.CD,12308624282.319,19325894913.1254,33332844574.7801,40405006007.2086,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,GDP growth (annual %),NY.GDP.MKTP.KD.ZG,7.64077232347231,2.74285739723466,4.99999999829738,5.69999999644881,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Inflation, GDP deflator (annual %)",NY.GDP.DEFL.KD.ZG,19.3348701452732,9.70098596983003,7.78974735847375,11.9671724819106,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Agriculture, value added (% of GDP)",NV.AGR.TOTL.ZS,29.8127496769176,23.7502370910579,19.2248067010655,17.9391583039027,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Industry, value added (% of GDP)",NV.IND.TOTL.ZS,25.4545740222092,37.9435201149119,35.273974625605,32.9749324130311,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Services, etc., value added (% of GDP)",NV.SRV.TETC.ZS,44.7326763008732,38.3062427940302,45.5012186733295,49.0859092830662,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,28.3391968039116,35.3894830794694,39.5045675156527,38.6434451434366,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,27.950866104171,28.5819510007604,38.7233005176029,37.8330308411132,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Gross capital formation (% of GDP),NE.GDI.TOTL.ZS,16.5450493425956,17.2678838559009,18.8544113550052,27.799126386517,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,"Revenue, excluding grants (% of GDP)",GC.REV.XGRT.GD.ZS,21.8534778330998,26.6003609193261,25.505652575551,22.7259932224087,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Cash surplus/deficit (% of GDP),GC.BAL.CASH.GD.ZS,..,-1.10203878257968,-3.4507837358319,-3.05779586545123,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Time required to start a business (days),IC.REG.DURS,..,..,43,43,16,15,13,13,13,13,13,..
+Syrian Arab Republic,SYR,Domestic credit provided by financial sector (% of GDP),FS.AST.DOMS.GD.ZS,56.61097611878,25.4898732449594,33.5824331735069,36.2029677386291,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Tax revenue (% of GDP),GC.TAX.TOTL.GD.ZS,16.7120091827912,15.424751786724,14.5807416531034,14.1946827922725,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Military expenditure (% of GDP),MS.MIL.XPND.GD.ZS,6.39553047017084,5.33991624765218,4.39443417058901,4.10055163329246,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,0,0.183248542196764,24.8605231589998,31.8722456387112,34.6807164985686,47.6515658905912,54.3175207395542,59.2404373381603,59.2973438353284,56.1289421926444,70.947419600516,..
+Syrian Arab Republic,SYR,Internet users (per 100 people),IT.NET.USER.P2,0,0.181698580104333,7.83255156888787,11.5,14,17.3,20.7,22.5,24.3001,26.2,28.09,..
+Syrian Arab Republic,SYR,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,..,0.531688776283232,0.804813407367902,1.27095427419597,1.80688037212788,1.5568095311668,1.33672339132445,..,..,..,..,..
+Syrian Arab Republic,SYR,Overall level of statistical capacity (scale 0 - 100),IQ.SCI.OVRL,..,..,61.1111111111111,56.6666666666667,62.2222222222222,54.4444444444444,56.6666666666667,60,52.2222222222222,43.3333333333333,44.4444444444444,..
+Syrian Arab Republic,SYR,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,53.7184322824603,43.7185446675578,67.2239356882066,64.8455292775492,..,..,..,..,..,..,..,..
+Syrian Arab Republic,SYR,Net barter terms of trade index (2000 = 100),TT.PRI.MRCH.XD.WD,..,100,124.4926133973,128.6810467265,144.6849635305,127.5832671536,136.2684735488,145.7656168401,147.8555707685,148.3543529036,..,..
+Syrian Arab Republic,SYR,"External debt stocks, total (DOD, current US$)",DT.DOD.DECT.CD,17097159000,22203157000,5561285000,5682584000,5373866000,5673725000,5263142000,4967794000,4735695000,4752865000,..,..
+Syrian Arab Republic,SYR,"Total debt service (% of exports of goods, services and primary income)",DT.TDS.DECT.EX.ZS,..,6.7865090403338,6.06192633560838,4.23954309299616,3.43351422588305,3.89971179650784,3.14411986355777,..,..,..,..,..
+Syrian Arab Republic,SYR,Net migration,SM.POP.NETM,..,..,..,1140716,..,..,..,..,-1500000,..,..,..
+Syrian Arab Republic,SYR,"Personal remittances, received (current US$)",BX.TRF.PWKR.CD.DT,385000000,180000000,795000000,1030442463.41463,1325013920,1349880000,1622538750,..,..,..,..,..
+Syrian Arab Republic,SYR,"Foreign direct investment, net inflows (BoP, current US$)",BX.KLT.DINV.CD.WD,40000000,270000000,659000000,1241959115.11048,1465623386.27635,2569548271.53071,1469196863.48146,..,..,..,..,..
+Syrian Arab Republic,SYR,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,882820000,158940000,19190000,83540000,156760000,208070000,135000000,335130000,1671520000,3626750000,..,..
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Data from database: World Development Indicators,,,,,,,,,,,,,,,
+Last Updated: 09/18/2015,,,,,,,,,,,,,,,
